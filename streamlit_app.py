@@ -8,7 +8,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-print("OK")
 from webdriver_manager.firefox import GeckoDriverManager
 
 URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
@@ -20,7 +19,9 @@ st.markdown("You should see some random Football match text below in about 21 se
 
 firefoxOptions = Options()
 firefoxOptions.add_argument("--headless")
+st.markdown("line 1")
 service = Service(GeckoDriverManager().install())
+st.markdown("line 2")
 driver = webdriver.Firefox(
     options=firefoxOptions,
     service=service,
