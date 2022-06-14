@@ -2,4 +2,4 @@ altair
 pandas
 streamlit
 selenium
-webdriver-manager
+seleniumbase
