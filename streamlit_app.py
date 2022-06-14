@@ -8,6 +8,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+print("OK")
 from webdriver_manager.firefox import GeckoDriverManager
 
 URL = "https://www.unibet.fr/sport/football/europa-league/europa-league-matchs"
