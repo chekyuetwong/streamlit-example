@@ -1,3 +1,5 @@
+import os
+os.environ['GH_TOKEN'] = "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"
 import streamlit as st
 import time
 
